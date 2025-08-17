@@ -129,6 +129,7 @@ The lab demonstrates four types of prompt injection attacks:
 <img width="946" height="73" alt="图片5" src="https://github.com/user-attachments/assets/fbe41015-15b8-4c41-8382-e82c520e575a" />
 <img width="927" height="268" alt="图片6" src="https://github.com/user-attachments/assets/c453359c-d85e-49f3-836f-73676a80247f" />
 
+
 2. **Roleplay Jailbreaking**
    
    Uses fictional scenarios to circumvent safety restrictions.
@@ -138,6 +139,7 @@ The lab demonstrates four types of prompt injection attacks:
 
 <img width="946" height="73" alt="图片5" src="https://github.com/user-attachments/assets/0eb7e4df-36ab-470a-95cf-be88fa47dfc6" />
 <img width="852" height="791" alt="图片7" src="https://github.com/user-attachments/assets/e94d890f-3348-4f86-9d6a-59b1a9756b0b" />
+
    
 3.  **Prompt Leaking**
    
@@ -148,6 +150,7 @@ The lab demonstrates four types of prompt injection attacks:
 <img width="931" height="58" alt="图片8" src="https://github.com/user-attachments/assets/651503cf-93ba-4c06-8709-654c6a2f486e" />
 <img width="883" height="380" alt="图片9" src="https://github.com/user-attachments/assets/f814167f-2724-46bc-a991-2976908b1e04" />
 
+
 4.  **Multi-step Context Shifting**
    
    Gradually manipulates conversation context to bypass restrictions.
@@ -156,15 +159,16 @@ The lab demonstrates four types of prompt injection attacks:
    - **Success Rate**: High (exploits limited context memory)
    <img width="1028" height="58" alt="图片10" src="https://github.com/user-attachments/assets/ff8ad0d0-3f4c-458c-a5fa-f67f47d584c3" />  
   <img width="915" height="249" alt="图片11" src="https://github.com/user-attachments/assets/5099d0b8-a554-44d9-ba28-07850ab9558b" />
-  - Round 1：
+  Round 1：
   <img width="956" height="547" alt="图片12" src="https://github.com/user-attachments/assets/458f11ea-6ee1-4da0-ab76-53ae1e3f4b52" />
 
-  - Round 2：
+  Round 2：
 <img width="793" height="723" alt="图片13" src="https://github.com/user-attachments/assets/791bf1ce-05ca-4e7f-a41a-ffe4778721a6" />
 
 ##  Defense Mechanisms
 1. **Input Sanitization**
 <img width="902" height="380" alt="图片14" src="https://github.com/user-attachments/assets/6e0067f9-096a-47ef-89f7-831183af36ce" />
+
 
 Before defense:
 <img width="911" height="379" alt="图片15" src="https://github.com/user-attachments/assets/ff469dc6-373d-4f30-b457-0b35e9df7a8b" />
@@ -175,6 +179,7 @@ After defense:
 2. **Context Separation**
 <img width="1035" height="184" alt="图片17" src="https://github.com/user-attachments/assets/f3553bf4-ef09-437c-a1e0-442c609350ee" />
 
+
 Before defense:
 <img width="911" height="379" alt="图片15" src="https://github.com/user-attachments/assets/a5720c71-69c0-4b3b-8eaf-d1dfd32a0e0f" />
 
@@ -183,6 +188,7 @@ After defense:
    
 3. **Output Filtering**
 <img width="752" height="403" alt="图片19" src="https://github.com/user-attachments/assets/ba0100e9-d5e4-40ae-909b-fd7f45e98517" />
+
 
 Before defense:
 <img width="783" height="180" alt="图片20" src="https://github.com/user-attachments/assets/13f9f562-1c09-487a-9bdf-b3c7afd77ab5" />
@@ -193,6 +199,7 @@ After defense:
    
 4. **Model Feedback Loop**
 <img width="1114" height="340" alt="图片22" src="https://github.com/user-attachments/assets/1990c92b-b998-4fec-aece-071f2334df29" />
+
 
 Before defense:
 <img width="911" height="379" alt="图片15" src="https://github.com/user-attachments/assets/2c79fdd4-2f06-4d4a-bae9-1f2c63ed47a6" />
